@@ -1,123 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <style>
+         .calculator-body{
+            height: 300px;
+            width: 250px;
+            background-color: #3D3D5C;
+            margin: 20px auto;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 5px 0 grey;
+         }   
 
-<title>Movie Cards</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f2f2f2;
-  }
+         .screen{
+            background-color: #9ca580;
+            text-align: right;
+            width: 220px;
+            display: block;
+            margin: 0 auto;
+            font-size: 30px;
+            padding: 5px 10px;
+            margin-bottom: 20px;
+            padding-top: 30px;
+         }
 
-  .container {
-    display: flex;
-   
-    justify-content: space-around;
-  }
+         .buttons-container{
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+         }
 
-  .card {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    padding: 20px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+         .btn{
+            width: 50px;
+            text-align: center;
+            padding: 2px 0;
+            font-size: 20px;
+            margin: 3px;
+            border: 0.5px solid black;
+            border-radius: 5px;
+            cursor: pointer;
 
-  .card img {
-    max-width: 100%;
-    
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
+         }
+         .btn:hover{
+            box-shadow: 0 0 5px 0 #fff;
+            transition: 0.5s;
+         }
 
-  .card h2 {
+         .btn-equals{
+            background-color: #6dacf4;
+         height: 70px;
+         color: white;
+         }
+        </style>
+    </head>
+    <body>
+     <div class="calculator-body">
+    <input type="text" value="0" class="screen"/>
+       <div class="buttons-container">
+         <button class="btn">AC</button>
+         <button class="btn">7</button>
+         <button class="btn">4</button>
+         <button class="btn">1</button>
+         <button class="btn">0</button>
 
-    font-size: 18px;
-    text-align: center;
-  }
+         <button class="btn">M+</button>
+         <button class="btn">8</button>
+         <button class="btn">2</button>
+         <button class="btn">5</button>
+         <button class="btn">.</button>
 
-  .card p {
-    margin: 10px 0;
-    font-size: 14px;
-    text-align: center;
-  }
+         <button class="btn">/</button>
+         <button class="btn">9</button>
+         <button class="btn">6</button>
+         <button class="btn">3</button>
+         <button class="btn">%</button>
 
-  .details {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: auto;
-  }
-
-  .details span {
-    margin-bottom: 5px;
-    font-size: 12px;
-  }
-
-  .rating {
-    display: flex;
-  }
-
-  .rating span {
-    color: #ffc107;
-    font-size: 20px;
-    margin-right: 2px;
-  }
-</style>
-</head>
-<body>
-
-<div class="container">
-  <div class="card">
-    <img src="Avatar.jpeg" alt="Movie Poster">
-    <h2>Avatar: The Way of Water</h2>
-    
-    <div class="details">
-      <span>Length: 120 min</span>
-      <span>Language: English</span>
-      <div class="rating">
-        <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>
-      </div>
-      <span>Reviews: 45+</span>
-    </div>
-   
-  </div>
-
-  <div class="card">
-    <img src="spirited away.jpeg" alt="Movie Poster">
-    <h2>Spirited away</h2>
-    <div class="details">
-      <span>Length: 90 min</span>
-      <span>Language: Japanese</span>
-      <div class="rating">
-        <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span><span>&#9734;</span>
-      </div>
-      <span>Reviews: 45+</span>
-    </div>
-    
-  </div>
-
-  <div class="card">
-    <img src="Mulan.jpeg" alt="Movie Poster">
-    <h2>Mulan</h2>
-    
-    <div class="details">
-      <span>Length: 90 min</span>
-      <span>Language: English</span>
-      <div class="rating">
-        <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
-      </div>
-      <span>Reviews: 45+</span>
-    </div>
-    
-  </div>
-</div>
-
-</body>
+         <button class="btn">X</button>
+         <button class="btn">-</button>
+         <button class="btn">+</button>
+         <button class="btn btn-equals">=</button>
+       </div>
+     </div>
+    </body>
 </html>
