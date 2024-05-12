@@ -1,76 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inline Block Cards</title>
-  <style>
-    .card {
-      display: inline-block;
-      width: 30%;
-      margin: 1%;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      background-color: #E7DFF8;
-    }
 
+<title>Movie Cards</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+
+  .container {
+    display: flex;
    
+    justify-content: space-around;
+  }
 
-    .card-content {
-      padding: 20px;
-    }
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .card-title {
-      font: size 1.2em;;
-      margin-bottom: 10px;
-      
-    }
+  .card img {
+    max-width: 100%;
+    
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
 
-    .card-description {
-      font-size: 1rem;
-      color: #666;
-    }
+  .card h2 {
 
-    .card-footer {
-      padding: 10px 20px;
-      background-color: #f5f5f5;
-      text-align: center;
-    }
-  </style>
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .card p {
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+  }
+
+  .details span {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+
+  .rating {
+    display: flex;
+  }
+
+  .rating span {
+    color: #ffc107;
+    font-size: 20px;
+    margin-right: 2px;
+  }
+</style>
 </head>
 <body>
-    <h1>Inline-block property</h1>
 
-<div class="card">
-  <div class="card-content">
-    <h3 class="card-title">Affordable pricing</h3>
-    <p class="card-description">Our course price ranges from ₹499 to ₹1999.
-         Which is less than 1% of the cost of a college degree in India, and
-          we provide more practical and industry-oriented knowledge.</p>
-
-</div>
-</div>
-
-<div class="card">
- 
-  <div class="card-content">
-    <h3 class="card-title">Live interactive classes</h3>
-    <p class="card-description">Attend live class and get your doubts cleared 
-        by the instructor in real-time just like a physical classroom. No boring
-         pre-recorded videos.</p>
+<div class="container">
+  <div class="card">
+    <img src="Avatar.jpeg" alt="Movie Poster">
+    <h2>Avatar: The Way of Water</h2>
+    
+    <div class="details">
+      <span>Length: 120 min</span>
+      <span>Language: English</span>
+      <div class="rating">
+        <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>
+      </div>
+      <span>Reviews: 45+</span>
+    </div>
+   
   </div>
-  
-</div>
 
-<div class="card">
-  <div class="card-content">
-    <h3 class="card-title">Recorded Videos of Live Classes.</h3>
-    <p class="card-description">Missed a class? or want to revise? No worries, 
-        watch the recorded sessions of live classes multiple times at your own 
-        pace and time to understand the concepts better.</p>
+  <div class="card">
+    <img src="spirited away.jpeg" alt="Movie Poster">
+    <h2>Spirited away</h2>
+    <div class="details">
+      <span>Length: 90 min</span>
+      <span>Language: Japanese</span>
+      <div class="rating">
+        <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span><span>&#9734;</span>
+      </div>
+      <span>Reviews: 45+</span>
+    </div>
+    
   </div>
-  
+
+  <div class="card">
+    <img src="Mulan.jpeg" alt="Movie Poster">
+    <h2>Mulan</h2>
+    
+    <div class="details">
+      <span>Length: 90 min</span>
+      <span>Language: English</span>
+      <div class="rating">
+        <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+      </div>
+      <span>Reviews: 45+</span>
+    </div>
+    
+  </div>
 </div>
 
 </body>
