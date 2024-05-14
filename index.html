@@ -1,91 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Calculator</title>
-        <style>
-         .calculator-body{
-            height: 300px;
-            width: 250px;
-            background-color: #3D3D5C;
-            margin: 20px auto;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 0 5px 0 grey;
-         }   
+<html>
+<head>
+    <title>Assignment 16</title>
+    <style>
+        body{
+            background-image: url('./coffeebg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .header{
+        font-family:cursive;
+        font-size: 55px;
+        text-align: center;
+        color:white;
+        }
+        .header2{
+          font-family:cursive;
+        font-size: 40px;
+        text-align: center;
+        color:white;
+        }
 
-         .screen{
-            background-color: #9ca580;
-            text-align: right;
-            width: 220px;
-            display: block;
-            margin: 0 auto;
-            font-size: 30px;
-            padding: 5px 10px;
-            margin-bottom: 20px;
-            padding-top: 30px;
-         }
+        .menu {
+        height: 400px;
+        width: 800px;
+        background-color: transparent;
+        margin-top: 20px;
+        margin-left: 250px;
+        position: relative;
+        border-radius: 10px;
+        }
+        
+        .img {
+        position: absolute;
+        width: 200px;
+        left:308px;
+        top: 60px;
+        margin: 0 auto;
+        padding: 3px;
+        border: dotted 2px;
+        border-radius: 50%; 
+        }
+        .frame-l{
+        font-size: 40px;
+        text-align: left;
+        padding-left: 50px;
+        padding-top: 50px;
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        }
+        .frame-r{
+        font-size: 40px;
+        text-align: right;
+        padding-left: 50px;
+        padding-top: 50px;
+        position: absolute;
+        right: 50px;
+        top: 50px;
+        }
 
-         .buttons-container{
-            height: 200px;
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-         }
+        .menu-list{
+        font-size: 25px;
+        text-align: left;
+        padding-top: 15px;
+        color: whitesmoke;
+        padding-right: 40px;
+        }
+        .menu-list2{
+          font-size: 25px;
+        text-align: left;
+        padding-top: 15px;
+        color: whitesmoke;
+        
 
-         .btn{
-            width: 50px;
-            text-align: center;
-            padding: 2px 0;
-            font-size: 20px;
-            margin: 3px;
-            border: 0.5px solid black;
-            border-radius: 5px;
-            cursor: pointer;
+        }
 
-         }
-         .btn:hover{
-            box-shadow: 0 0 5px 0 #fff;
-            transition: 0.5s;
-         }
+        .bottom
+      {
+        font-size: 20px;
+        text-align: center;
+        position: absolute;
+        bottom: 20px;
+        left: 35%;
+      }
+    </style>
+</head>
+<body>
+    <h1 class="header">Delicious Cafe</h1>
+    <h2 class="header2"><i><u>Get 25% off on your first order...</u></i></h2>
+    <div class="menu">
+        <img src="clogo.jpeg" height="200px" alt="Coffee" class="img"/>
+          <div class="frame-l">
+            <b style="color: whitesmoke;"><i>Drink Menu</i></b>
+              <div class="menu-list">
+                <ul>
+                <li>Brewed coffee</li>
+                <li>Hot Chocalate</li>
+                <li>Hot Apple Cider</li>
+                <li>Chai Latte </li>
+              </ul>
+          
+              </div>
+          </div>
+          <div class="frame-r">
+            <b style="color: whitesmoke;"><i>Tea Selection</i></b>
+            <div class="menu-list2">
+              <ul>
+                <li>Green Tea </li>
+                <li>Black Tea </li>
+                <li>Herbal Infusion</li>
+                <li>Red Tea</li>
+                <li>Lemon Tea</li>
+              </ul>
+              </div>
+          </div>
 
-         .btn-equals{
-            background-color: #6dacf4;
-         height: 70px;
-         color: white;
-         }
-        </style>
-    </head>
-    <body>
-     <div class="calculator-body">
-    <input type="text" value="0" class="screen"/>
-       <div class="buttons-container">
-         <button class="btn">AC</button>
-         <button class="btn">7</button>
-         <button class="btn">4</button>
-         <button class="btn">1</button>
-         <button class="btn">0</button>
-
-         <button class="btn">M+</button>
-         <button class="btn">8</button>
-         <button class="btn">2</button>
-         <button class="btn">5</button>
-         <button class="btn">.</button>
-
-         <button class="btn">/</button>
-         <button class="btn">9</button>
-         <button class="btn">6</button>
-         <button class="btn">3</button>
-         <button class="btn">%</button>
-
-         <button class="btn">X</button>
-         <button class="btn">-</button>
-         <button class="btn">+</button>
-         <button class="btn btn-equals">=</button>
-       </div>
-     </div>
-    </body>
+    </div>
+</body>
 </html>
