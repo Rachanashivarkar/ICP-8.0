@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 16</title>
+    <style>
+        body {
+            background-image: url('./coffeebg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0; 
+            position: relative; 
+        }
+        .header {
+            font-family: cursive;
+            font-size: 55px;
+            text-align: center;
+            color: white;
+        }
+        .header2 {
+            font-family: cursive;
+            font-size: 40px;
+            text-align: center;
+            color: white;
+        }
+        .menu {
+            height: 400px;
+            width: 800px;
+            background-color: transparent;
+            margin: 20px auto;
+            position: relative;
+            border-radius: 10px;
+            text-align: center; 
+        }
+        .img-container {
+            position: fixed;
+            top: 50px; 
+            left: 50px; 
+            bottom: auto; 
+            right: auto; 
+        }
+        .img {
+            width: 150px; 
+            border: dotted 2px;
+            border-radius: 50%;
+        }
+        .frame-l {
+            font-size: 40px;
+            text-align: left;
+            display: inline-block; 
+            vertical-align: top; 
+            width: 90%; 
+            margin-top: 50px; 
+            color: whitesmoke;
+            position: static; 
+        }
+        .menu-list {
+            font-size: 25px;
+            text-align: left;
+            padding-top: 15px;
+        }
+        .bottom {
+            font-size: 20px;
+            text-align: center;
+            position: sticky; 
+            bottom: 20px;
+            left: 50%; 
+            transform: translateX(-50%); 
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="header">Delicious Cafe</h1>
+    <h2 class="header2"><i><u>Get 25% off on your first order...</u></i></h2>
+    <div class="menu">
+        <div class="img-container">
+            <img src="clogo.jpeg" height="150px" alt="Coffee" class="img"/> 
+        </div>
+        <div class="frame-l">
+            <b style="color: whitesmoke;"><i>Tea Selection</i></b>
+            <div class="menu-list">
+                <ul>
+                    <li>Green Tea</li>
+                    <li>Black Tea</li>
+                    <li>Herbal Infusion</li>
+                    <li>Red Tea</li>
+                    <li>Lemon Tea</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">25% off on your first order!</div>
+</body>
+</html>
