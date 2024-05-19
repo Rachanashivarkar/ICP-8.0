@@ -44,6 +44,17 @@
         font-size: 30px;
         margin: 40px 0;
     }
+    .r-detail{
+        display: flex;
+        justify-content: space-around;
+    }
+    .r-detail-key{
+        color: gray;
+
+    }
+    .r-detail-value{
+        font-weight: bold;
+    }
    
 </style>
 <body>
@@ -66,9 +77,9 @@
         <h3 class="r-title">
            Payment Receipt
         </h3>
-        <div>
-           <span class="r-detail-key">Receipt No: </span>
-           <span class="r-detail-value"> 12345</span>
+        <div class="r-detail">
+           <div class="r-detail-key">Receipt No: </div>
+           <div class="r-detail-value"> 12345</div>
         </div>
 
     </div>
