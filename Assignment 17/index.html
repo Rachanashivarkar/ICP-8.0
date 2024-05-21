@@ -1,159 +1,355 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Cards with Flexbox</title>
-    
+    <title>Assignment No 17</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    body {
-    font-family: Arial, sans-serif;
-    background-color: #08043f6d;
-    margin: 0;
-    padding: 20px;
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.container {
-    display: flex;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-.movie-card {
-    background-color: rgb(153, 203, 253);
-    color: white;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s, box-shadow 0.3s;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 200px; 
-}
-
-.movie-card img {
-    width: 100%; 
-    height: auto; 
-    max-height: 200px; 
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
 
 
-.movie-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.movie-card h2 {
-    margin: 10px 0 5px;
-    font-size: 1.25em;
-}
-
-.movie-card p {
-    margin: 5px 0 0;
-    font-size: 0.9em;
-}
-
-.tall {
-    height: auto; 
-}
-
-
-.flex-direction-row {
-    flex-direction: row;
-}
-
-.flex-direction-column {
-    flex-direction: column;
-}
-
-
-.justify-content-space-between {
-    justify-content: space-between;
-}
-
-
-.align-items-center {
-    align-items: center;
-}
-
-
-.flex-wrap {
-    flex-wrap: wrap;
-}
-
-</style>
 <body>
-    <h1>Movie Cards with Flexbox</h1>
-
-    <div class="container flex-direction-row">
-        <div class="movie-card">
-            <img src="movie1.jpeg" alt="Movie 1 Poster">
-            <h2>Indiana Jones and the Raiders of the Lost Ark</h2>
-            <p>A great movie about adventure.</p>
+    <h1><u>Flex-Direction</u></h1>
+    <h1>Row</h1>
+    <h2>Japanese  Drama's</h2>
+    <div class="main1">
+        <div  class="class1">
+            <img src="ao haru ride.jpeg" height="400px" class="img2">
+            <h3>Ao haru ride</h3>
+            <h4>Japanese Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>
         </div>
-        <div class="movie-card">
-            <img src="movie2.jpeg" alt="Movie 2 Poster">
-            <h2>The Shawshank Redemption</h2>
-            <p>An inspiring tale of friendship.</p>
+        <br><br>
+        <div  class="class1">
+            <img src="cindrella.jpeg"width="400px" class="img3">
+            <h3>Cindrella again</h3>
+            <h4>Japanese Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+        <br><br>
+        <div  class="class1">
+            <img src="trillion game.jpeg"width="400px" class="img4">
+            <h3>Trillion game</h3>
+            <h4>Japanese Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+    </div>  <br><br>
+    <hr>
+    <h1>Row Reverse</h1>
+    <h2>Korean Drama's</h2>
+    <div class="main2">
+        <div  class="class2">
+            <img src="business proposal.jpeg" height="400px" class="img2">
+            <h3>Business proposal</h3>
+            <h4>Korean Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>
+        </div>
+        <br><br>
+        <div  class="class2">
+            <img src="lovely runner.jpeg"width="400px" class="img3">
+            <h3>Lovely Runner</h3>
+            <h4>Korean Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+        <br><br>
+        <div class="class2">
+            <img src="king the land.jpeg"width="400px" class="img4">
+            <h3>King the Land</h3>
+            <h4>Korean Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+    </div> <br><br>
+    <hr>
+
+    <h1>Column</h1>
+    <h2>Chinese Drama's</h2>
+    <div class="main3">
+        <div  class="class3">
+            <img src="put your head.jpg" height="400px" class="img2">
+            <h3>Put your head on my shoulder</h3>
+            <h4>Chinese Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>
+        </div>
+        <br><br>
+        <div class="class3">
+            <img src="meteor garden.jpeg"width="400px" class="img3">
+            <h3>Meteor garden</h3>
+            <h4>Korean Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+        <br><br>
+        <div  class="class3">
+            <img src="lighter.jpeg"width="400px" class="img4">
+            <h3>Lighter and princess</h3>
+            <h4>Chinese Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+    </div> <br><br>
+    <hr>
+    <h1>Column-Reverse</h1>
+    <h2>Korean Thriller</h2>
+    <div class="main4">
+        <div  class="class4">
+            <img src="duty after school.jpeg" height="400px" class="img2">
+            <h3>Duty after school</h3>
+            <h4>Korean Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>
+        </div>
+        <br><br>
+        <div  class="class4">
+            <img src="happiness.jpeg"width="400px" class="img3">
+            <h3>Happiness</h3>
+            <h4>Korean Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+        <br><br>
+        <div  class="class4">
+            <img src="suspicious partener.jpeg"width="400px" class="img4">
+            <h3>Suspicious partner</h3>
+            <h4>Korean Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+    </div>
+<br><br><br>
+    <h1><u>Justify-Content and align-items</u></h1>
+   
+    <h2>Japanese Thriller</h2>
+    <div class="main5">
+        <div  class="class5">
+            <img src="masters daughter.jpeg" height="400px" class="img2">
+            <h3>Master's Daughter</h3>
+            <h4>Japanese Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>
+        </div>
+        <br><br>
+        <div  class="class5">
+            <img src="alice in borderland.jpeg"width="400px" class="img3">
+            <h3>Alice in Borderland</h3>
+            <h4>Japanese Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+        <br><br>
+        <div  class="class5">
+            <img src="influence.jpeg"width="400px" class="img4">
+            <h3>Influence</h3>
+            <h4>Japanese Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
         </div>
     </div>
 
-    <div class="container flex-direction-column">
-        <div class="movie-card">
-            <img src="movie3.jpeg" alt="Movie 3 Poster">
-            <h2>The Da Vinci Code</h2>
-            <p>A thrilling mystery that keeps you on the edge.</p>
+
+
+    <h2>Chinese Thriller </h2>
+    <div class="main6">
+        <div  class="class6">
+            <img src="new face.jpeg" height="400px" class="img2">
+            <h3>New Face</h3>
+            <h4>Chinese Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>
         </div>
-        <div class="movie-card">
-            <img src="movie4.jpeg" alt="Movie 4 Poster">
-            <h2>Midnight in Paris</h2>
-            <p>A romantic story set in Paris.</p>
+        <br><br>
+        <div  class="class6">
+            <img src="guardian.jpeg"width="400px" class="img3">
+            <h3>Guardian</h3>
+            <h4>Chinese Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+        <br><br>
+        <div  class="class6">
+            <img src="lost in 1949.jpeg"width="400px" class="img4">
+            <h3>Lost in 1949</h3>
+            <h4>Chinese Drama</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
         </div>
     </div>
 
-    <div class="container justify-content-space-between">
-        <div class="movie-card">
-            <img src="movie5.jpeg" alt="Movie 5 Poster">
-            <h2>The Lord of the Rings: The Fellowship of the Ring</h2>
-            <p>An action-packed journey of a hero.</p>
+    <h2>Anime's</h2>
+    <div class="main7">
+        <div  class="class7">
+            <img src="naruto.jpg" height="300px" class="img2">
+            <h3>Naruto</h3>
+            <h4>Animated</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>
         </div>
-        <div class="movie-card">
-            <img src="movie6.jpeg" alt="Movie 6 Poster">
-            <h2>Toy Story</h2>
-            <p>A family-friendly animated movie.</p>
+        <br><br>
+        <div  class="class7">
+            <img src="tokyo ghouls.jpg"width="400px" class="img3">
+            <h3>Tokyo ghoul</h3>
+            <h4>Animated</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+        <br><br>
+        <div  class="class7">
+            <img src="ao haru ride.png"width="400px" class="img4">
+            <h3>Ao haru ride</h3>
+            <h4>Animated</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
         </div>
     </div>
 
-    <div class="container align-items-center">
-        <div class="movie-card tall">
-            <img src="movie7.jpeg" alt="Movie 7 Poster">
-            <h2>Planet Earth</h2>
-            <p>A documentary about nature's wonders.</p>
+    <h2>Anime's</h2>
+    <div class="main8">
+        <div  class="class8">
+            <img src="gintama.jpg" height="400px" class="img2">
+            <h3>Gintama</h3>
+            <h4>Animated</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>
         </div>
-        <div class="movie-card">
-            <img src="movie8.jpeg" alt="Movie 8 Poster">
-            <h2>Forrest Gump</h2>
-            <p>A heartwarming drama about life.</p>
+        <br><br>
+        <div  class="class8">
+            <img src="attack on titan.jpg"width="400px" class="img3">
+            <h3>Attack on Titan</h3>
+            <h4>Animated</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+        <br><br>
+        <div  class="class8">
+            <img src="one punch man.jpg"width="400px" class="img4">
+            <h3>One punch man</h3>
+            <h4>Animated</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+    </div>
+
+    
+    <h2>Anime's</h2>
+    <div class="main9">
+        <div  class="class9">
+            <img src="jujutsu kaisen.jpg" height="300px" class="img2">
+            <h3>Jujutsu Kaisen</h3>
+            <h4>Animated</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>
+        </div>
+        <br><br>
+        <div  class="class9">
+            <img src="death note.jpg"width="300px" class="img3">
+            <h3>Death note</h3>
+            <h4>Animated</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+        <br><br>
+        <div  class="class9">
+            <img src="dr stone.jpg"width="300px" class="img4">
+            <h3>Dr.stone</h3>
+            <h4>Animated</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+    </div>
+
+    <h2>Anime's</h2>
+    <div class="main10">
+        <div  class="class10">
+            <img src="naruto.jpg" height="300px" class="img2">
+            <h3>Naruto</h3>
+            <h4>Animated</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>
+        </div>
+        <br><br>
+        <div  class="class10">
+            <img src="ao haru ride.png"width="400px" class="img3">
+            <h3>Ao Haru Ride</h3>
+            <h4>Animated</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+        <br><br>
+        <div  class="class10">
+            <img src="tokyo ghouls.jpg"width="400px" class="img4">
+            <h3>Tokyo ghouls</h3>
+            <h4>Animated</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
         </div>
     </div>
 
 
+    <br><br><br>
+    <h1> <u>FlexWrap</u></h1>
+   
+    <h1>Anime's</h1>
+    <div class="main12">
+        <div  class="class12">
+            <img src="tokyo revengers.jpg" height="400px" class="img2">
+            <h3>Tokyo revengers</h3>
+            <h4>Animated</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>
+        </div>
+        <br><br>
+        <div  class="class12">
+            <img src="hunter hunter.jpg"width="400px" class="img3">
+            <h3>Hunter x Hunter</h3>
+            <h4>Animated</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+        <br><br>
+        <div  class="class12">
+            <img src="attack on titan.jpg"width="400px" class="img4">
+            <h3>Attack on Titan</h3>
+            <h4>Animated</h4>
+            <div class="btn">
+                <button>Watch Now</button>
+            </div>          
+        </div>
+    </div>
 </body>
 </html>
