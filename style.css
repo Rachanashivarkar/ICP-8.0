@@ -1,0 +1,308 @@
+     body{
+        background-color: bisque;
+        
+     }
+    .main1{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        margin:10px;
+        padding:20px;
+        background-image: url(bg.jpeg);
+        background-image:cover;
+        border-radius: 40px;
+    }
+    .class1{
+        height: 300px;
+        width: 500px;
+        border-radius:50px 0 50px 0;
+        margin-right: auto;
+        margin-left: auto;
+        padding:40px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        position: relative;
+    }
+    
+    .img2{
+    position:relative;
+    width: 300px;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    
+   
+    }
+    .img3{
+    position:relative;
+    width: 300px;
+    height:200px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .img4{
+    position:relative; 
+    width: 300px;
+    height:200px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    }
+    h4{
+        font-size: 15px;
+    }
+    .btn button{
+        border-radius:50px 50px;
+        background-color:rgb(247, 84, 84);
+        color: white;
+        height: 50px;
+        width: 80px;
+        font-size:15px;
+    
+    }
+    h1{
+        text-align: center;
+        color:black
+    }  
+
+    .main2{
+        display: flex;
+        flex-direction:row-reverse;
+        justify-content: space-evenly;
+        margin:10px;
+        padding:20px;
+        background-image: url(bg.jpeg);
+        background-image:cover;
+        border-radius: 40px;
+    }
+    .class2{
+        height: 300px;
+        width: 500px;
+        border-radius:50px 0 50px 0;
+        margin-right: auto;
+        margin-left: auto;
+        padding:40px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        position: relative;
+    }
+
+    .main3{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-evenly;
+        margin:10px;
+        padding:20px;
+       
+        border-radius: 40px;
+    }
+    .class{
+        height: 300px;
+        width: 500px;
+        border-radius:50px 0 50px 0;
+        margin-right: auto;
+        margin-left: auto;
+        padding:40px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        position: relative;
+    }
+
+    .main4{
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: space-evenly;
+        margin:10px;
+        padding:20px;
+        border-radius: 40px;
+    }
+    .class4{
+        height: 300px;
+        width: 500px;
+        border-radius:50px 0 50px 0;
+        padding:40px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        position: relative;
+    }
+    hr{
+        font-weight: bold;
+    }
+    .h1{
+        background-color: antiquewhite;
+        font-size: 30px;
+        color: black;
+    }
+    
+
+    .main5{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin:10px;
+        padding:20px;
+        border-radius: 40px;
+    }
+    .class5{
+        height: 300px;
+        width: 500px;
+        border-radius:50px 0 50px 0;
+        padding:40px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        position: relative;
+    }
+
+    .main6{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin:10px;
+        padding:20px;
+        border-radius: 40px;
+    }
+    .class6{
+        height: 300px;
+        width: 500px;
+        border-radius:50px 0 50px 0;
+        padding:40px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        position: relative;
+    }
+
+    .main7{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin:10px;
+        padding:20px;
+        border-radius: 40px;
+    }
+    .class7{
+        height: 300px;
+        width: 500px;
+        border-radius:50px 0 50px 0;
+        padding:40px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        position: relative;
+    }
+
+    .main8{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin:10px;
+        padding:20px;
+        border-radius: 40px;
+    }
+    .class8{
+        height: 300px;
+        width: 500px;
+        border-radius:50px 0 50px 0;
+        padding:40px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        position: relative;
+    }
+
+    .main9{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        margin:10px;
+        padding:20px;
+        border-radius: 40px;
+    }
+    .class9{
+        height: 300px;
+        width: 500px;
+        border-radius:50px 0 50px 0;
+        padding:40px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        position: relative;
+    }
+
+    .main10{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: end;
+        margin:10px;
+        padding:20px;
+        border-radius: 40px;
+    }
+    .class10{
+        height: 300px;
+        width: 500px;
+        border-radius:50px 0 50px 0;
+        padding:40px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        position: relative;
+    }
+   
+
+    .main11{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: end;
+        margin:10px;
+        padding:20px;
+        border-radius: 40px;
+    }
+    .class11{
+        height: 300px;
+        width: 500px;
+        border-radius:50px 0 50px 0;
+        padding:40px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        position: relative;
+    }
+
+    .main12{
+        display: flex;
+        flex-wrap: nowrap;
+        margin:10px;
+        padding:20px;
+        border-radius: 40px;
+    }
+    .class12{
+        height: 300px;
+        width: 500px;
+        border-radius:50px 0 50px 0;
+        padding:40px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        position: relative;
+    }
+
+    .main12{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin:10px;
+        padding:20px;
+        border-radius: 40px;
+    }
+    .class12{
+        height: 300px;
+        width: 500px;
+        border-radius:50px 0 50px 0;
+        padding:40px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        position: relative;
+    }
+   
+   
+
