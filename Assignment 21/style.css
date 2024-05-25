@@ -1,0 +1,296 @@
+
+    body{
+        background-color:#eeeee4;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .brand-logo{
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+    .brand-title{
+        text-align: center;
+    }
+    .brand-address{
+        text-align: right;
+    }
+    .brand-mobile{
+        text-align: right;
+    }
+    .r-container{
+        width: 80%;
+        border:1px solid gray;
+        margin: 0 auto;
+        background-color: white;
+        padding: 10px;
+        border-radius: 3px;
+        box-shadow: 0 0 10px rgba(0,0,0, 2);
+    }
+    .r-header{
+        border-bottom: 1px dotted gray;
+    }
+    .r-detail{
+        display: flex;
+        justify-content:center;
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    .r-detail-key{
+        color: gray;
+        width: 30%;
+    }
+    .r-detail-value{
+        font-weight: bold;
+        border-bottom: 1px dashed gray;
+        width: 30%;
+    }
+    .r-title{
+        text-align: center;
+        font-size: 30px;
+        margin: 30px 0;
+    }
+    .r-body{
+        position: relative;
+        border-bottom: 1px dashed gray;
+        padding:20px;
+    }
+    .stamp{
+        width: 150px;
+        position:absolute;
+        right: 0;
+        bottom: -10px;
+        transform:rotate(-10deg);
+    }
+    .accountant-signature{
+        text-align: right;
+        margin-top: 100px;
+    }
+
+    .r-footer{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+       
+    }
+    @media screen and (max-width: 600px){
+        .brand-logo{
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+    .brand-title{
+        text-align: center;
+    }
+    .brand-address{
+        text-align: center;
+    }
+    .brand-mobile{
+        text-align:center;
+    }
+    .r-container{
+        width: 80%;
+        border:1px solid gray;
+        margin: 0 auto;
+        background-color: white;
+        padding: 10px;
+        border-radius: 3px;
+        box-shadow: 0 0 10px rgba(0,0,0, 2);
+    }
+    .r-header{
+        border-bottom: 1px dotted gray;
+    }
+    .r-detail{
+        display: flex;
+        justify-content:center;
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    .r-detail-key{
+        color: gray;
+        width: 30%;
+    }
+    .r-detail-value{
+        font-weight: bold;
+        border-bottom: 1px dashed gray;
+        width: 30%;
+    }
+    .r-title{
+        text-align: center;
+        font-size: 30px;
+        margin: 30px 0;
+    }
+    .r-body{
+        position: relative;
+        border-bottom: 1px dashed gray;
+       
+    }
+    .stamp{
+        width: 150px;
+        position:absolute;
+        right:120px;
+        bottom: -10px;
+        transform:rotate(-10deg);
+    }
+    .accountant-signature{
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .r-footer{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+       
+    }
+    }
+    
+
+    @media screen and (min-width: 769px) and (max-width: 992px){
+        .brand-logo{
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+    .brand-title{
+        text-align: center;
+    }
+    .brand-address{
+        text-align: center;
+    }
+    .brand-mobile{
+        text-align:center;
+    }
+    .r-container{
+        width: 80%;
+        border:1px solid gray;
+        margin: 0 auto;
+        background-color: rgb(160, 157, 157);
+        padding: 10px;
+        border-radius: 3px;
+        box-shadow: 0 0 10px rgba(0,0,0, 2);
+    }
+    .r-header{
+        border-bottom: 1px dotted gray;
+    }
+    .r-detail{
+        display: flex;
+        justify-content:center;
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    .r-detail-key{
+        color: gray;
+        width: 30%;
+    }
+    .r-detail-value{
+        font-weight: bold;
+        border-bottom: 1px dashed gray;
+        width: 30%;
+    }
+    .r-title{
+        text-align: center;
+        font-size: 30px;
+        margin: 30px 0;
+    }
+    .r-body{
+        position: relative;
+        border-bottom: 1px dashed gray;
+       
+    }
+    .stamp{
+        width: 150px;
+        position:absolute;
+        right:300px;
+        bottom: -10px;
+        transform:rotate(-10deg);
+    }
+    .accountant-signature{
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .r-footer{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+       
+    }
+
+    }
+    @media screen and (min-width: 993px) and (max-width: 1200px){
+        .text-center{
+        text-align: center;
+    }
+    .brand-logo{
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+    .brand-title{
+        text-align: center;
+    }
+    .brand-address{
+        text-align: right;
+    }
+    .brand-mobile{
+        text-align: right;
+    }
+    .r-container{
+        width: 80%;
+        border:1px solid gray;
+        margin: 0 auto;
+        background-color: whitesmoke;
+        padding: 10px;
+        border-radius: 3px;
+        box-shadow: 0 0 10px rgba(0,0,0, 2);
+    }
+    .r-header{
+        border-bottom: 1px dotted gray;
+    }
+    .r-detail{
+        display: flex;
+        justify-content:center;
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    .r-detail-key{
+        color: gray;
+        width: 30%;
+    }
+    .r-detail-value{
+        font-weight: bold;
+        border-bottom: 1px dashed gray;
+        width: 30%;
+    }
+    .r-title{
+        text-align: center;
+        font-size: 30px;
+        margin: 30px 0;
+    }
+    .r-body{
+        position: relative;
+        border-bottom: 1px dashed gray;
+       
+    }
+    .stamp{
+        width: 150px;
+        position:absolute;
+        right: 0;
+        bottom: -10px;
+        transform:rotate(-10deg);
+    }
+    .accountant-signature{
+        text-align: right;
+        margin-top: 100px;
+    }
+
+    .r-footer{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+       
+    }
+    }
+    
